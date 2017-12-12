@@ -203,6 +203,12 @@ module.exports = {
               },
               {
                 loader: require.resolve('less-loader'),
+                options: {
+                    sourceMap: true,
+                    modifyVars: {
+                      'primary-color': '#1DA57A',
+                    },
+                }
               },
             ],        
           },
