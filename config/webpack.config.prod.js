@@ -225,6 +225,10 @@ module.exports = {
                     },
                     {
                       loader: require.resolve('less-loader'),
+                      options: {
+                        sourceMap: shouldUseSourceMap,
+                        modifyVars: require(paths.appPackageJson).theme,
+                      }
                     },
                   ],
                 },

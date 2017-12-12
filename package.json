@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "theme": {
-    "primary-color": "#1DA57A"
+    "primary-color": "#f4645f"
   },
   "dependencies": {
     "autoprefixer": "7.1.2",

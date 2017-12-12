@@ -1,0 +1,25 @@
+create-react-app运行起来
+路由
+node后台跑起来
+
+要求：每次做了什么，要记录，方便下次开启项目指导前一次做了什么。
+
+12.08
+增加路由react-router4配置路由
+12.09
+配置less环境，增加less-loader less两个依赖，配置了webpack.config开发环境和生产环境的less配置
+修改了path文件打包默认publipath从/至./，打包之后是相对路径。
+12.12
+修改了package主题配置，增加"theme": {
+    "primary-color": "#f4645f"
+  }
+webpack.config开发环境和生产环境里修改
+loader: require.resolve('less-loader'),
+                
+options: {
+                    
+	sourceMap: true,
+                    
+	modifyVars: require(paths.appPackageJson).theme,
+    
+},
