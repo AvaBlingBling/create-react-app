@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import Routers from './router';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import registerServiceWorker from './registerServiceWorker';
+//页面ant样式没有引入，在这里引入全部的样式，这是一个待解决问题
+// import 'antd/dist/antd.less';
+
+ReactDOM.render(<Routers />, document.getElementById('root'));
 registerServiceWorker();

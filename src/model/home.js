@@ -1,0 +1,21 @@
+export const menu = [{
+  key:'hoem',
+  title:'首页',
+  url:'#/',
+},{
+  key:'domToImg',
+  title:'网页截图',
+  url:'#/domToImg',
+},{
+  key:'zhuhai',
+  title:'珠海民生',
+  subMenu:[{
+    key:'iShowMap',
+    title:'我秀地图',
+    url:'#/iShowMap',
+  },{
+    key:'1',
+    title:'1',
+    url:'#/1',
+  }]
+}]
